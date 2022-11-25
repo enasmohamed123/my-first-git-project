@@ -8,12 +8,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-  steps:
-    - name : 'Testing git hub action'
+   steps:
+    - name: 'Testing git hub action'
       run: pwd
 
     
-   - name : 'Testing printing'
+   - name: 'Testing printing'
       run: echo Ahmed
 
 
