@@ -1,7 +1,8 @@
 on:
   push:
   branches:
-  -master
+  - master
+  
 
 
 
@@ -13,12 +14,12 @@ on:
 
 jobs:
   build:
-  runs-on:ubuntu-latest
+  runs-on: ubuntu-latest
 
   steps:
-  -name:'Testing Github action'
+  - name: 'Testing Github action'
   run:pwd
 
-  -name:'Testing printing'
+  - name: 'Testing printing'
   run:pwd
   run:echo Ahmed
