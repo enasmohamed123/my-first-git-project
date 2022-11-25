@@ -2,13 +2,6 @@ on:
   push:
   branches:
   - master
-  
-
-
-
-
-
-
 
 
 
@@ -23,3 +16,18 @@ jobs:
   - name: 'Testing printing'
   run: pwd
   run: echo Ahmed
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+ 
