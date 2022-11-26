@@ -1,22 +1,22 @@
 on:
   push:
-    branches: 
+    branches:
       - master
+
+
 
 
 jobs:
   build:
     runs-on: ubuntu-latest
+ 
 
-   steps:
-    - name: 'Testing git hub action'
-      run: pwd
+    steps:
+      - name: 'Testing Github action'
+        run: pwd
 
-    
-   - name: 'Testing printing'
-      run: echo Ahmed
-
-
+         - name: 'Testing printing'
+        run: echo Ahmed
 
 
   
