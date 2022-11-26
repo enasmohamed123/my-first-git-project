@@ -16,7 +16,7 @@ jobs:
         run: pwd
 
       - name: 'Testing printing'
-        run: ahmed
+        run: echo ahmed
 
   
 
